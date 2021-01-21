@@ -16,7 +16,7 @@ class Drink(db.Model):
 
 @app.route('/')
 def index():
-    return 'Hello'
+    return 'Bad drinks flask app'
 
 @app.route('/drinks')
 def get_drinks():
