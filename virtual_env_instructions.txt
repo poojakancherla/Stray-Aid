@@ -1,0 +1,22 @@
+To check pip version:
+py -m pip --version
+
+To upgrade pip:
+py -m pip install --upgrade pip
+
+To install virtual env:
+py -m pip install --user virtualenv
+
+To create virtual env:
+py -m venv env
+
+To activate virtual env:
+.\env\Scripts\activate
+
+You can confirn you are in the virtual envi using:
+where python
+.../env/bin/python.exe
+
+Then install all the required packages 
+
+To run: app.py
