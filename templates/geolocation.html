@@ -13,7 +13,7 @@
             <input type="submit" value="Submit">
         </form>
         {% for animal in animals %}
-        <div>{{ animal["name"] + " : " + animal["lat"] + ", " + animal["lng"] }}</div>
+        <div>{{ animal["name"] + " : " + animal["address"] }}</div>
         {% endfor %}
         <!--<script src="./geolocation.js"></script>/-->
         <script type="text/javascript">
